@@ -1,1 +1,2 @@
 #!/bin/bash
+echo "tr 'A' 'z' | tr 'c' 'e'"
