@@ -1,0 +1,1 @@
+what happen when we type google.com
