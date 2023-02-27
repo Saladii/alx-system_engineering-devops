@@ -8,7 +8,7 @@ from requests import get
 
 def number_of_subscribers(subreddit):
     """
-    function that queries the reddit API and returns the number of subscribers (    not active users, tatal subscripers) for a given subreddit.
+    function that queries the reddit API.
     """
 
     if subreddit is None or not isinstance(subreddit, str):
@@ -23,4 +23,3 @@ def number_of_subscribers(subreddit):
 
     except Exception:
         return 0
-
